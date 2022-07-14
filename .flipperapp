@@ -1,0 +1,21 @@
+######################################################################################
+## This is an optional file to give FlipperApps.com more information about your app ##
+##     Please see https://flipperapps.com/deployment for the full specification     ##
+######################################################################################
+
+# App Title, Overrides the repo name for display - defaults to the repo name
+TITLE="Flipper Apps - Test App"
+
+# the name of your compiled file as found on GitHub releases - defaults to the first found .elf file in release
+COMPILED_FILE="cool_app.elf"
+
+# Categories Comma separated (max 3) - Pick From [SubGhz, IR, Game, Tool, Misc, RFID, NFC, GPIO] - Defaults to GitHub repo tags
+CATEGORIES="SubGhz, Game, Misc"
+
+### Advanced ###
+
+# Where should your app be installed under sdcard/plugins/ - defaults to the root of the plugins folder
+INSTALL_PATH="gpio/"
+
+# What branch is used for releases - defaults to the Repo's main branch
+RELEASE_BRANCH="main"
